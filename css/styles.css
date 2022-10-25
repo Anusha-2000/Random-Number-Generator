@@ -1,0 +1,96 @@
+body {
+    background-color: #D3E0DC;
+    font-family: 'Neucha', cursive, sans-serif;
+    margin: 0;
+}
+
+#title {
+    margin: 0;
+    padding: 2% 30%;
+    text-align: center;
+}
+
+#title h1 {
+    color: #F54291;
+    font-family: 'Patrick Hand', cursive, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+/*Description*/
+
+#description {
+    background-color: rgb(187, 220, 215);
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 500px;
+    margin: 4% 10%;
+    padding: 10px 20px;
+    width: 80%;
+}
+
+#description p {
+    color: #5a5758;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+
+label {
+    color: #524A4E;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+input {
+    background-color: #FDEBF7;
+    border-style: none;
+    border-radius: 3px;
+    bottom: 5px;
+    box-sizing: border-box;
+    color:#524A4E;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 30px;
+    margin: 50px 60px 0 5px;
+    padding: 4px 8px;
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: #FDEBF7;
+    border-style: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:#524A4E;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 80px;
+    margin: 30px 0 0 0;
+    padding: 4px 8px;
+    position: absolute;
+    right: 450px;
+    top: 430px;
+    text-align: center;
+    width: 250px;
+}
+
+button:hover {
+    background-color: #524A4E;
+    color:#FDEBF7;
+}
+
+
+
+
+
+
+
+
+
+

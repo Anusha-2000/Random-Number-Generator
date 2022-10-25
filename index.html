@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JavaScript -->
+    <!-- <script src="randomNumberGenerator.js"></script> -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Neucha&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <h1>Random Number Generator</h1>
+    </div>
+
+    <div id="description">
+        <p>
+            Welcome to our wonderful website. This website is designed to generate a Random Number.
+            To be more accurate, a Pseudo Random Number. What would one do with a random number?
+            Well, many things. For example, you can use them for your passwords. We all know that
+            using your birthday isn't secure. Use our website and confuse those hackers. You can also use it for filing in dummy values. Why 
+            waste your precious time thinking about a random number when it is just a click away?
+            We are living in a smart world. It is high time to make smart decisions.
+            Specify your range by giving minimum value and maximum value. 
+            Click on the "Get Random Number" button and Bob's your uncle! 
+        </p>
+
+        <label>Enter the minimum value:</label>
+        <input type="number" id="min"> <br> 
+
+        <label>Enter the maximum value:</label>
+        <input type="number" id="max"> <br>
+
+        <button type="button" onclick="getRandomNumber();">Get Random Number</button>
+
+        <script src="randomNumberGenerator.js"></script>
+
+    </div>
+</body>
+</html>
